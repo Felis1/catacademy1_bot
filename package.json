@@ -1,0 +1,18 @@
+{
+  "name": "assbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot"
+  },
+  "engines": {
+    "node": "12.8.3"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.50.0",
+    "telegraf": "^3.38.0"
+  }
+}
