@@ -7,7 +7,7 @@
     "start": "node bot"
   },
   "engines": {
-    "node": "12.8.3"
+    "node": "v12.8.3"
   },
   "author": "",
   "license": "ISC",
