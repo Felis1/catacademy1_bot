@@ -4,10 +4,10 @@
   "description": "",
   "main": "bot.js",
   "scripts": {
-    "start": "node bot"
+    "start": "node bot.js"
   },
   "engines": {
-    "node": "12.8.3"
+    "node": "12.18.3"
   },
   "author": "",
   "license": "ISC",
