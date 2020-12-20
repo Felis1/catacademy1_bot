@@ -4,7 +4,7 @@ const express = require('express');
 const expressApp = express()
 const bot = new Telegraf('1446411020:AAHhFjr1onQ6dIyBEAEbDUPITKdY1tfYPIw');
 const PORT = process.env.PORT || 3000;
-const DYNO_URL = 'https://git.heroku.com/catacademy-bot.git';
+const DYNO_URL = 'https://catacademy-bot.herokuapp.com/';
 expressApp.listen(PORT, () => {
     wakeDyno(DYNO_URL);
     bot.start((ctx) => {
